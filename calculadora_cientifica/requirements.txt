@@ -1,0 +1,11 @@
+
+# requirements.txt
+# Dependências para o projeto calculadora_cientifíca
+
+# Pacotes de desenvolvimento e teste
+pytest>=6.0      # Para rodar testes de unidade
+twine>=3.0       # Para fazer upload no PyPI
+setuptools>=57.0 # Para construção do pacote
+
+# Python
+python>=3.6
