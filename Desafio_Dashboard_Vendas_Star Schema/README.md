@@ -8,4 +8,4 @@ A tabela `D_Data` registra quando o professor começou e terminou de lecionar um
 
 A imagem abaixo foi gerada com a ferramenta de modelagem : [SqlDBM](https://sqldbm.com/Home/).
 
-![image](T:\workspace\Engenharia_Dados_2024\Desafio_Dashboard_Vendas_Star Schema\star_schema.png)    	
+![image](star_schema.png) 
