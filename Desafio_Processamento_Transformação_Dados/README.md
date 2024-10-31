@@ -69,6 +69,5 @@ Este documento descreve as etapas realizadas para transformar e integrar dados d
   group by e.Super_ssn; ```
 
 ---
-
 ### Observações Finais
 Essas transformações foram realizadas para simplificar e otimizar a consulta e análise de dados entre funcionários, departamentos e gerentes, facilitando a geração de relatórios e o entendimento das hierarquias na empresa.
