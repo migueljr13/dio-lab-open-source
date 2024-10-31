@@ -60,14 +60,15 @@ Este documento descreve as etapas realizadas para transformar e integrar dados d
    - **Objetivo**: Possibilidade de otimização dos dados com esta consulta.
 
    - **Consulta**: 
-
-  ```select e.Super_ssn as Ssn_mngr, CONCAT(e2.Fname,' ',e2.Lname) as name_mngr,
+ ```
   count(*) as total_employees
   from employee e
   left join employee e2 on e.Super_ssn = e2.Ssn
   where e.Super_ssn is not null
-  group by e.Super_ssn; ```
-
+  group by e.Super_ssn;
+ ```
 ---
+
 ### Observações Finais
 Essas transformações foram realizadas para simplificar e otimizar a consulta e análise de dados entre funcionários, departamentos e gerentes, facilitando a geração de relatórios e o entendimento das hierarquias na empresa.
+
